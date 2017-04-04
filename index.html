@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Crime Data</title>
+</head>
+<body>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://a.alipayobjects.com/g/datavis/g2/2.2.6/g2.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script async src="./main.js"></script>
+  <!-- <script async src="./main1.js"></script> -->
+  <div class="container" style="display: flex; justify-content: center">
+    <div id="c1" style="margin-top:2vh; position: absolute">
+      <div id='title' style="margin-top:30vh; position: absolute; font-size: 1.3em">
+        Year: 2009
+      </div>
+      <div style="margin-top:5vh; position: absolute; z-index: 9999" >
+        <button type="button" class="btn btn-default" id="stop">
+          Stop!
+        </button>
+        <button type="button" class="btn btn-default" id="begin">
+          Begin!
+        </button>
+      </div>
+      <div id='c2' style="margin-bottom:-5vh; bottom: -5vh; position: absolute; z-index: 99999">
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
